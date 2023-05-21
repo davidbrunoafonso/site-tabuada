@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praticando a Tabuada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #resultado {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pratique a Tabuada!</h1>
+    <p>Escolha um número de 1 a 10 para praticar a tabuada:</p>
+    <input type="number" id="numero" min="1" max="10">
+    <button onclick="gerarTabuada()">Gerar Tabuada</button>
+    <div id="resultado"></div>
+
+    <script>
+        function gerarTabuada() {
+            let num = document.getElementById("numero").value;
+            let resultado = document.getElementById("resultado");
+            resultado.innerHTML = ""; // Limpar o resultado anterior
+
+            if(num >= 1 && num <= 10) {
+                for(let i = 1; i <= 10; i++) {
+                    resultado.innerHTML += num + " x " + i + " = " + num * i + "<br>";
+                }
+            } else {
+                resultado.innerHTML = "Por favor, insira um número entre 1 e 10.";
+            }
+        }
+    </script>
+</body>
+</html>
