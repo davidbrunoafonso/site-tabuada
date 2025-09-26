@@ -1,0 +1,12 @@
+Cliente,Cliente Agrupado,Segmento informado,Segmento recomendado,Status,Observação
+Açúcar Nordeste,Grupo Açúcar,Usina,USINA,Segmento correto,
+Companhia Açúcar Brasil,Grupo Açúcar,Indústria,USINA,Divergente,USINA
+Bioenergia Brasil,Bioenergia Brasil,Usina,USINA,Segmento correto,
+Metal Forte,Grupo Metal,Indústria,INDUSTRIA,Segmento correto,
+Metal Forte Filial,Grupo Metal,Indústria,INDUSTRIA,Segmento correto,
+Logística Rápida,,Logística,SERVICOS,Divergente,SERVICOS
+Fornecedor XPTO,,Serviços,SERVICOS,Segmento correto,
+Energia Sul,Grupo Energia,Usina,USINA,Segmento correto,
+Energia Norte,Grupo Energia,Indústria,USINA,Divergente,USINA
+Super Mercado Central,Grupo Varejo,Varejo,VAREJO,Segmento correto,
+Loja Express,Grupo Varejo,Varejo,VAREJO,Segmento correto,
